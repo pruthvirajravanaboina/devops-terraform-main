@@ -1,0 +1,13 @@
+aws_region          = "us-east-1"
+vpc_cidr            = "10.35.0.0/16"
+environment         = "development"
+IGW_name            = "DevOps-aws-IGW"
+vpc_name            = "DevOps-aws"
+public_subnet1_name = "DevOps-Public-Subnet-1"
+public_subnet2_name = "DevOps-Public-Subnet-2"
+public_subnet3_name = "DevOps-Public-Subnet-3"
+Main_Routing_Table  = "DevOps_Main_RT"
+public_subnet1_cidr = "10.35.1.0/24"
+public_subnet2_cidr = "10.35.2.0/24"
+public_subnet3_cidr = "10.35.3.0/24"
+
